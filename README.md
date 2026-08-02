@@ -19,8 +19,8 @@
 * **ロジックの可視化**: データ解析の結果、二進数表記のビット左右反転処理および各桁と出力ピンの対応関係を解明。
 
 ### 開発実績・成果
-* **C#機器制御プログラム（`Injection.cs`）**: Visual Studio（C#）を用いて、全8パターンの電圧印加をミリ秒精度で安定して制御するロジックを自作・実装。
-* **ファン制御プログラム（`FanController.cs`）**: `System.IO.Ports.SerialPort` を介してArduinoとシリアル通信を行い、PWM制御で送風ファンの風量（匂い拡散）を精密に調整する機構を構築。
+* **C#機器制御プログラム（[`Injection.cs`](https://github.com/kkait1999jk/InjectionControllerWithArduino/blob/main/InjectionController/Injection.cs)）**: Visual Studio（C#）を用いて、全8パターンの電圧印加をミリ秒精度で安定して制御するロジックを自作・実装。
+* **ファン制御プログラム（[`FanController.cs`](https://github.com/kkait1999jk/InjectionControllerWithArduino/blob/main/InjectionController/FanController.cs)）**: `System.IO.Ports.SerialPort` を介してArduinoとシリアル通信を行い、PWM制御で送風ファンの風量（匂い拡散）を精密に調整する機構を構築。
 * **成果**: 外部アプリケーションからフリーズなく安全・正確に駆動できる機器制御基盤を確立。
 
 ---
